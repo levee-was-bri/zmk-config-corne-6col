@@ -88,12 +88,6 @@
             bindings = <&kp ESC>;
             key-positions = <15 14>;
         };
-
-        quote {
-            bindings = <&kp SQT>;
-            key-positions = <22 21>;
-            layers = <0>;
-        };
     };
 
     macros {
@@ -131,9 +125,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp NUMBER_1      &kp NUMBER_2                  &kp NUMBER_3                     &kp NUMBER_4                          &kp N5       &kp NUMBER_6  &kp N7                   &kp N8             &kp N9                &kp N0     &none
-&none      &kp LEFT_BRACKET  &HMRF LEFT_ALT RIGHT_BRACKET  &HMRF LEFT_GUI LEFT_PARENTHESIS  &HMRF LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL    &kp LEFT      &HMRF LEFT_CONTROL DOWN  &HMRF LEFT_GUI UP  &HMRF LEFT_ALT RIGHT  &none      &none
-&none      &none             &kp DOT                       &kp LEFT_BRACE                   &kp RIGHT_BRACE                       &kp PLUS     &kp HOME      &kp PAGE_DOWN            &kp PAGE_UP        &kp END               &kp MINUS  &none
+&kp GRAVE  &kp NUMBER_1      &kp NUMBER_2                  &kp NUMBER_3                     &kp NUMBER_4                          &kp N5       &kp NUMBER_6  &kp N7                   &kp N8             &kp N9                &kp N0  &none
+&none      &kp LEFT_BRACKET  &HMRF LEFT_ALT RIGHT_BRACKET  &HMRF LEFT_GUI LEFT_PARENTHESIS  &HMRF LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL    &kp LEFT      &HMRF LEFT_CONTROL DOWN  &HMRF LEFT_GUI UP  &HMRF LEFT_ALT RIGHT  &none   &none
+&none      &none             &kp DOT                       &kp LEFT_BRACE                   &kp RIGHT_BRACE                       &kp PLUS     &kp HOME      &kp PAGE_DOWN            &kp PAGE_UP        &kp END               &none   &none
                                                            &trans                           &trans                                &trans       &trans        &trans                   &trans
             >;
         };
