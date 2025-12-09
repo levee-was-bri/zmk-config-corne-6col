@@ -127,7 +127,7 @@
             bindings = <
 &kp GRAVE  &kp NUMBER_1      &kp NUMBER_2                  &kp NUMBER_3                     &kp NUMBER_4                          &kp N5       &kp NUMBER_6  &kp N7                   &kp N8             &kp N9                &kp N0  &none
 &none      &kp LEFT_BRACKET  &HMRF LEFT_ALT RIGHT_BRACKET  &HMRF LEFT_GUI LEFT_PARENTHESIS  &HMRF LEFT_CONTROL RIGHT_PARENTHESIS  &kp EQUAL    &kp LEFT      &HMRF LEFT_CONTROL DOWN  &HMRF LEFT_GUI UP  &HMRF LEFT_ALT RIGHT  &none   &none
-&none      &none             &kp DOT                       &kp LEFT_BRACE                   &kp RIGHT_BRACE                       &kp PLUS     &kp HOME      &kp PAGE_DOWN            &kp PAGE_UP        &kp END               &none   &none
+&none      &none             &kp DOT                       &kp LEFT_BRACE                   &kp RIGHT_BRACE                       &kp PLUS     &kp HOME      &kp PAGE_DOWN            &kp PAGE_UP        &kp END               &none   &kp MINUS
                                                            &trans                           &trans                                &trans       &trans        &trans                   &trans
             >;
         };
@@ -140,10 +140,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F12          &kp F1        &kp F2                 &kp F3                        &kp F4                          &kp F5          &kp F6          &kp F7                            &kp F8                      &kp F9                         &kp F10    &kp F11
-&kp PRINTSCREEN  &none         &HMRF LEFT_ALT K_MUTE  &HMRF LEFT_GUI C_VOLUME_DOWN  &HMRF LEFT_CONTROL C_VOLUME_UP  &out OUT_TOG    &mmv MOVE_LEFT  &hrmf_mmv LEFT_CONTROL MOVE_DOWN  &hrmf_mmv LEFT_GUI MOVE_UP  &hrmf_mmv LEFT_ALT MOVE_RIGHT  &mkp LCLK  &mkp MB2
-&bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2           &bt BT_SEL 3                  &bt BT_SEL 4                    &out OUT_TOG    &none           &msc SCRL_DOWN                    &msc SCRL_UP                &none                          &none      &bt BT_CLR
-                                                      &trans                        &trans                          &trans          &trans          &trans                            &trans
+&kp F12          &kp F1                &kp F2                 &kp F3                        &kp F4                          &kp F5          &kp F6          &kp F7                            &kp F8                      &kp F9                         &kp F10    &kp F11
+&kp PRINTSCREEN  &kp C_BRIGHTNESS_DEC  &HMRF LEFT_ALT K_MUTE  &HMRF LEFT_GUI C_VOLUME_DOWN  &HMRF LEFT_CONTROL C_VOLUME_UP  &none           &mmv MOVE_LEFT  &hrmf_mmv LEFT_CONTROL MOVE_DOWN  &hrmf_mmv LEFT_GUI MOVE_UP  &hrmf_mmv LEFT_ALT MOVE_RIGHT  &mkp LCLK  &mkp MB2
+&bt BT_SEL 0     &bt BT_SEL 1          &bt BT_SEL 2           &bt BT_SEL 3                  &bt BT_SEL 4                    &out OUT_TOG    &none           &msc SCRL_DOWN                    &msc SCRL_UP                &none                          &none      &bt BT_CLR
+                                                              &trans                        &trans                          &trans          &trans          &trans                            &trans
             >;
         };
 
