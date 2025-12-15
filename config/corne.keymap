@@ -141,7 +141,7 @@
 
             bindings = <
 &kp F12          &kp F1                &kp F2                           &kp F3                        &kp F4                          &kp F5              &kp F6          &kp F7                            &kp F8                      &kp F9                         &kp F10    &kp F11
-&kp PRINTSCREEN  &kp C_BRIGHTNESS_DEC  &HMRF LEFT_ALT C_BRIGHTNESS_INC  &HMRF LEFT_GUI C_VOLUME_DOWN  &HMRF LEFT_CONTROL C_VOLUME_UP  &kp C_PLAY_PAUSE    &mmv MOVE_LEFT  &hrmf_mmv LEFT_CONTROL MOVE_DOWN  &hrmf_mmv LEFT_GUI MOVE_UP  &hrmf_mmv LEFT_ALT MOVE_RIGHT  &mkp LCLK  &mkp MB2
+&kp PRINTSCREEN  &kp C_BRIGHTNESS_DEC  &HMRF LEFT_ALT C_BRIGHTNESS_INC  &HMRF LEFT_GUI C_VOLUME_DOWN  &HMRF LEFT_CONTROL C_VOLUME_UP  &kp K_PLAY_PAUSE    &mmv MOVE_LEFT  &hrmf_mmv LEFT_CONTROL MOVE_DOWN  &hrmf_mmv LEFT_GUI MOVE_UP  &hrmf_mmv LEFT_ALT MOVE_RIGHT  &mkp LCLK  &mkp MB2
 &bt BT_SEL 0     &bt BT_SEL 1          &bt BT_SEL 2                     &bt BT_SEL 3                  &bt BT_SEL 4                    &out OUT_TOG        &none           &msc SCRL_DOWN                    &msc SCRL_UP                &none                          &none      &bt BT_CLR
                                                                         &trans                        &trans                          &trans              &trans          &trans                            &trans
             >;
