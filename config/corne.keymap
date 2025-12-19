@@ -149,10 +149,10 @@
 
         gaming {
             bindings = <
-&none  &kp ESCAPE  &kp Q   &kp W  &kp E             &kp R             &trans  &trans            &trans  &trans  &trans  &none
-&none  &kp SPACE   &kp A   &kp S  &kp D             &kp G             &trans  &trans            &trans  &trans  &trans  &none
-&none  &kp V       &trans  &kp I  &kp C             &trans            &trans  &moonlight_mouse  &trans  &trans  &trans  &none
-                           &kp F  &kp LEFT_CONTROL  &kp LEFT_SHIFT    &trans  &trans            &trans
+&kp ESC   &kp NUMBER_1  &kp Q  &kp W  &kp E             &kp R        &trans  &trans  &trans  &trans  &trans  &none
+&kp TAB   &kp NUMBER_2  &kp A  &kp S  &kp D             &kp F        &trans  &trans  &trans  &trans  &trans  &none
+&kp CAPS  &kp NUMBER_3  &kp Z  &kp X  &kp C             &kp V        &trans  &kp M   &trans  &trans  &trans  &none
+                               &kp T  &kp LEFT_CONTROL  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
