@@ -97,6 +97,20 @@
             bindings = <&kp LC(LA(LS(M)))>;
             label = "MOONLIGHT_MOUSE";
         };
+
+        hyper: hyper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI>;
+            label = "HYPER";
+        };
+
+        meh: meh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp LEFT_ALT>;
+            label = "MEH";
+        };
     };
 
     keymap {
