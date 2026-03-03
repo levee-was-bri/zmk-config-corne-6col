@@ -124,10 +124,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TILDE                  &kp Q  &kp W             &kp E             &kp R                      &kp T                         &kp Y           &kp U                 &kp I             &kp O             &kp P     &kp BSLH
-&kp TAB                    &kp A  &HMRF LEFT_ALT S  &HMRF LEFT_GUI D  &HMRF LEFT_CONTROL F       &kp G                         &kp H           &HMRF LEFT_CONTROL J  &HMRF LEFT_GUI K  &HMRF LEFT_ALT L  &kp SEMI  &kp SQT
-&HMRF LEFT_CONTROL ESCAPE  &kp Z  &kp X             &LHKPT 4 C        &kp V                      &kp B                         &kp N           &kp M                 &kp COMMA         &kp DOT           &kp FSLH  &kp MINUS
-                                                    &kp DELETE        &HMRS LEFT_CONTROL ESCAPE  &HMRS LEFT_SHIFT BACKSPACE    &LHKPT 1 SPACE  &LHKPT 2 TAB          &kp ENTER
+&kp TILDE                  &kp Q                           &kp W             &kp E             &kp R                      &kp T                         &kp Y           &kp U                 &kp I             &kp O             &kp P                              &kp BSLH
+&kp TAB                    &HMRF LC(LA(LG(LEFT_SHIFT))) A  &HMRF LEFT_ALT S  &HMRF LEFT_GUI D  &HMRF LEFT_CONTROL F       &kp G                         &kp H           &HMRF LEFT_CONTROL J  &HMRF LEFT_GUI K  &HMRF LEFT_ALT L  &HMRF LA(LC(LG(LEFT_SHIFT))) SEMI  &kp SQT
+&HMRF LEFT_CONTROL ESCAPE  &kp Z                           &kp X             &LHKPT 4 C        &kp V                      &kp B                         &kp N           &kp M                 &kp COMMA         &kp DOT           &kp FSLH                           &kp MINUS
+                                                                             &kp DELETE        &HMRS LEFT_CONTROL ESCAPE  &HMRS LEFT_SHIFT BACKSPACE    &LHKPT 1 SPACE  &LHKPT 2 TAB          &kp ENTER
             >;
         };
 
